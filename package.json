@@ -80,6 +80,7 @@
   "scripts": {
     "dev": "vite",
     "build": "node scripts/build.js",
+    "vite:build":"vite build",
     "vite:build:ci":"CI=false && vite build",
     "webpack:build:ci": "CI=false && node scripts/build.js",
     "start": "node scripts/start.js",
