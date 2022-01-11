@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "middle-platform-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,17 +24,11 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "CI=false && react-scripts build",
+    "build": "react-scripts build",
+    "build:ci": "CI=false && react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "homepage": "https://github.com/yitjhy/middle-platform-template",
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
