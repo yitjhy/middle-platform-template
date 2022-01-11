@@ -57,7 +57,7 @@ const BasicRoute = props => {
                 <Layout>
                     <Content>
                         <div style={{minHeight: '100vh'}}>
-                            <Router>
+                            <Router basename='/middle-platform-template'>
                                 <Route exact path="/" render={() => <Redirect to="/article" />} />
                                 <Route component={Article} path="/article" />
                             </Router>
