@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, BrowserRouter as Router, withRouter, Redirect } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
-import Article from './../pages/article';
+import Article from '../pages/article';
 import { getMenuData } from '../constants';
 import logo from "../logo.svg";
 const { SubMenu } = Menu;

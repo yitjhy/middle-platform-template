@@ -12,7 +12,6 @@
     "@testing-library/user-event": "^12.1.10",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
-    "@vitejs/plugin-react": "^1.1.4",
     "antd": "^4.16.5",
     "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
@@ -72,7 +71,6 @@
     "url-join": "^4.0.1",
     "url-loader": "4.1.1",
     "url-params-parser": "^1.0.4",
-    "vite": "^2.7.10",
     "web-vitals": "^1.0.1",
     "webpack": "4.44.2",
     "webpack-dev-server": "3.11.1",
@@ -82,7 +80,8 @@
   "scripts": {
     "dev": "vite",
     "build": "node scripts/build.js",
-    "build:ci": "CI=false && node scripts/build.js",
+    "vite:build:ci":"CI=false && vite build",
+    "webpack:build:ci": "CI=false && node scripts/build.js",
     "start": "node scripts/start.js",
     "test": "node scripts/test.js"
   },
@@ -151,12 +150,8 @@
     ],
     "resetMocks": true
   },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.6.4"
   }
 }

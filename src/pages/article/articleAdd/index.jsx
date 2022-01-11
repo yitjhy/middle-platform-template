@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Button } from "antd";
 import { compose } from 'ramda';
 import factory from '../../../utils/factory';
-import AddFormItem from './../components/articleEditForm';
+import AddFormItem from '../components/articleEditForm';
 import { Context } from "../articleModel";
 const { createToolbarContainer, createMainComponent, createForm, createResetFormFieldsEmptyButton } = factory;
 

@@ -5,7 +5,7 @@ import zhCN from 'antd/lib/locale-provider/zh_CN';
 import 'antd/dist/antd.css';
 import './index.css';
 import {  BrowserRouter } from 'react-router-dom';
-import Router from './router/index';
+import Router from './router';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

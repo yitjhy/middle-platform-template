@@ -5,7 +5,7 @@ import {compose} from "ramda";
 import { Context }  from '../articleModel'
 import factory from "../../../utils/factory";
 import { replaceUrlState } from "../../../utils/helper";
-import ArticleSearchForm from './../components/articleSearchForm';
+import ArticleSearchForm from '../components/articleSearchForm';
 import {UrlParser} from "url-params-parser";
 const { createToolbarContainer, createMainComponent, createList, createPagination, createForm, createResetFormFieldsEmptyButton } = factory;
 

@@ -21,9 +21,9 @@ jobs:
         working-directory: ./
         run: |
             yarn
-            npm run build:ci
+            npm run vite:build:ci
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist
