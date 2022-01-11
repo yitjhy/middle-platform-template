@@ -21,7 +21,7 @@ jobs:
         working-directory: ./
         run: |
             yarn
-            yarn build
+            npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

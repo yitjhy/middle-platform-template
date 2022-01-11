@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@vitejs/plugin-react": "^1.1.4",
     "antd": "^4.16.5",
     "axios": "^0.21.1",
     "qs": "^6.10.1",
@@ -18,14 +19,17 @@
     "react-scripts": "4.0.3",
     "url-join": "^4.0.1",
     "url-params-parser": "^1.0.4",
+    "vite": "^2.7.10",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "vite",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://github.com/yitjhy/middle-platform-template",
   "eslintConfig": {
     "extends": [
       "react-app",
