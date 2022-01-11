@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/yitjhy/middle-platform-template/static/css/main.9991d2c0.chunk.css",
+    "main.js": "/yitjhy/middle-platform-template/static/js/main.14a4d9a3.chunk.js",
+    "main.js.map": "/yitjhy/middle-platform-template/static/js/main.14a4d9a3.chunk.js.map",
+    "runtime-main.js": "/yitjhy/middle-platform-template/static/js/runtime-main.7996555d.js",
+    "runtime-main.js.map": "/yitjhy/middle-platform-template/static/js/runtime-main.7996555d.js.map",
+    "static/css/2.10bc9b17.chunk.css": "/yitjhy/middle-platform-template/static/css/2.10bc9b17.chunk.css",
+    "static/js/2.bc5e2fc6.chunk.js": "/yitjhy/middle-platform-template/static/js/2.bc5e2fc6.chunk.js",
+    "static/js/2.bc5e2fc6.chunk.js.map": "/yitjhy/middle-platform-template/static/js/2.bc5e2fc6.chunk.js.map",
+    "static/js/3.09df14eb.chunk.js": "/yitjhy/middle-platform-template/static/js/3.09df14eb.chunk.js",
+    "static/js/3.09df14eb.chunk.js.map": "/yitjhy/middle-platform-template/static/js/3.09df14eb.chunk.js.map",
+    "index.html": "/yitjhy/middle-platform-template/index.html",
+    "static/css/2.10bc9b17.chunk.css.map": "/yitjhy/middle-platform-template/static/css/2.10bc9b17.chunk.css.map",
+    "static/css/main.9991d2c0.chunk.css.map": "/yitjhy/middle-platform-template/static/css/main.9991d2c0.chunk.css.map",
+    "static/js/2.bc5e2fc6.chunk.js.LICENSE.txt": "/yitjhy/middle-platform-template/static/js/2.bc5e2fc6.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/yitjhy/middle-platform-template/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7996555d.js",
+    "static/css/2.10bc9b17.chunk.css",
+    "static/js/2.bc5e2fc6.chunk.js",
+    "static/css/main.9991d2c0.chunk.css",
+    "static/js/main.14a4d9a3.chunk.js"
+  ]
+}
